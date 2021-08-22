@@ -11,6 +11,7 @@ public class Person {
     // USD 50
     // STG 30
     private HashMap<String, Account> userAccounts = new HashMap<String, Account>();
+    private HashMap<String, PaymentService> paymentServices = new HashMap<String, PaymentService>();
 
     public Person(String name){
         this.name = name;
